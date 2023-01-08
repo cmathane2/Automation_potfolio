@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing RED_BUS]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="PDP_pages1_test.RedBusTest">
+        <methods>
+          <include name="text_rYde_new"/>
+          <include name="TearDown"/>
+          <include name="setup_Browser_launch"/>
+        </methods>
+      </class> <!-- PDP_pages1_test.RedBusTest -->
+      <class name="PDP_pages1_test.ExpectedExeption">
+        <methods>
+          <include name="setup_Browser_launch"/>
+          <include name="TearDown"/>
+          <include name="expectedexception"/>
+        </methods>
+      </class> <!-- PDP_pages1_test.ExpectedExeption -->
+      <class name="PDP_pages1_test.InocationCountAndTimeout">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup_Browser_launch"/>
+          <include name="expectedexception"/>
+        </methods>
+      </class> <!-- PDP_pages1_test.InocationCountAndTimeout -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing RED_BUS] -->

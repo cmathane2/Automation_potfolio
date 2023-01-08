@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+
+
+<suite name="Testing RED_BUS">
+    <test name="Regression">
+    
+    <parameter name="from" value="Akot"/>
+    <parameter name="to" value="Pune"/>
+         <classes>
+          
+              <class name="PDP_pages1_test.RedBusTest"/>
+              <class name="PDP_pages1_test.ExpectedExeption"/>
+              <class name="PDP_pages1_test.Grouping"/>
+              <class name="PDP_pages1_test.InocationCountAndTimeout"/>
+             
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
+
